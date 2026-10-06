@@ -1,4 +1,4 @@
-import { demoTasks, variantNumber, variantTasks } from "./data.js";
+
 import { demoTasks, variantNumber, variantTasks } from "./data.js";
 import {
   findTaskById,
