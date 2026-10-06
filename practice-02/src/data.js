@@ -6,7 +6,8 @@ export const demoTasks = [
   { id: 7, title: "Проверить методы массивов", completed: false, priority: "low" },
   { id: 10, title: "Оформить README", completed: true, priority: "medium" },
 ];
-
+console.log(getPendingTasks(demoTasks).map((task) => task.id));
+console.log(getPendingTasks([]));
 
 export const variantNumber = 2;
 
