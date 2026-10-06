@@ -108,11 +108,6 @@ export function setTaskCompleted(tasks, id, completed) {
 
   return { ok: true, tasks: newTasks };
 }
-const result = setTaskCompleted(demoTasks, 4, true);
-console.log(result.ok, result.tasks.find((t) => t.id === 4).completed);
-
-const fail = setTaskCompleted(demoTasks, 777, true);
-console.log(fail);
 
 
 export function renameTask(tasks, id, title) {

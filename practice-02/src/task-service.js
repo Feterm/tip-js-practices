@@ -57,8 +57,7 @@ export function findTaskById(tasks, id) {
 export function getPendingTasks(tasks) {
   return tasks.filter((task) => task.completed === false);
 }
-console.log(getPendingTasks(demoTasks).map((task) => task.id));
-console.log(getPendingTasks([]));
+
 
 export function getTaskTitles(tasks) {
   return tasks.map((task) => task.title);
